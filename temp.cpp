@@ -22,15 +22,15 @@ public:
     }
 } node;
 
-class BTree
-{
-    node *root = NULL;
+// class BTree
+// {
+    // node *root = NULL;
 
-public:
+// public:
     // void insert(int data);
-    void InorderTraverse(node *root);
+    // void InorderTraverse(node *root);
     // int MergeSort(int, int, int);
-};
+// };
 
 /*int BTree::MergeSort(int data, int left, int right)
 {
@@ -65,9 +65,9 @@ int main()
     root->left = new node(1);
     root->right = new node(2);
     root->left->left = new node(3);
-    root->right->right = new node(6);
     root->left->right = new node(4);
-    root->right->left = new node(5);
+    // root->right->right = new node(6);
+    // root->right->left = new node(5);
     InorderTraverse(root);
     return 0;
 }
