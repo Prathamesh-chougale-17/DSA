@@ -21,34 +21,6 @@ public:
         right = NULL;
     }
 } node;
-
-// class BTree
-// {
-    // node *root = NULL;
-
-// public:
-    // void insert(int data);
-    // void InorderTraverse(node *root);
-    // int MergeSort(int, int, int);
-// };
-
-/*int BTree::MergeSort(int data, int left, int right)
-{
-  int mid=(left+right)/2;
-  if (data>mid)
-    return MergeSort(data, mid+1, right);
-  else
-    return MergeSort(data, left, mid);
-}*/
-
-/*void BTree::insert(int data)
-{
-  node *newnode=new node();
-  newnode->data=data;
-  //int pid=MergeSort(data,)
-
-}*/
-
 void InorderTraverse(node *root)
 {
     if (root == NULL)
